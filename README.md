@@ -1,2 +1,4 @@
-# Factorio-SimpleCharcoal
-Factorio Mod - Coal form Wood
+# Factorio-SimpleKiln
+Factorio Mod - 
+
+Hot kiln: Coal form Wood

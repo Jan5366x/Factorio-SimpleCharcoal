@@ -11,8 +11,9 @@ data:extend(
             category = "kiln-burning",
             enabled = true,
             energy_required = 120.0,
-            ingredients = {{"wood", 1}},
-            result = "coal"
+            ingredients = {{"raw-wood", 3}},
+            result = "coal",
+            result_count = 2,
         }
     }
 )

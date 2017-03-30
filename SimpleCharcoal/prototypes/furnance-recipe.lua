@@ -8,7 +8,7 @@ data:extend(
         {
             type = "recipe",
             name = "charcoal_burning",
-            category = "smelting",
+            category = "kiln-burning",
             enabled = true,
             energy_required = 120.0,
             ingredients = {{"wood", 1}},

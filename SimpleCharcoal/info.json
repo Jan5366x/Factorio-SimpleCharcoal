@@ -1,10 +1,10 @@
 {
-  "name": "SimpleCharcoal",
+  "name": "SimpleKiln",
   "version": "1.0.0",
   "factorio_version": "0.14",
-  "title": "Simple Charcoal",
+  "title": "Simple Kiln",
   "author": "Jan Schwien",
   "contact": "-",
   "homepage": "-",
-  "description": "This mod adds a simple way to produce coal form wood."
+  "description": "This mod adds a simple kilns to the game like hot kilns which alows stuff like producing coal form wood."
 }

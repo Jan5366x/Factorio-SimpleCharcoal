@@ -11,7 +11,7 @@ data:extend(
             name = "electric-hot-kiln",
             icon = "__SimpleKiln__/graphics/icons/electric-charcoal-kiln.png",
             flags = {"placeable-neutral", "placeable-player", "player-creation"},
-            minable = {mining_time = 1, result = "electric-charcoal-kiln"},
+            minable = {mining_time = 1, result = "electric-hot-kiln"},
             max_health = 150,
             corpse = "big-remnants",
             dying_explosion = "medium-explosion",
@@ -35,12 +35,22 @@ data:extend(
             result_inventory_size = 1,
             crafting_speed = 2,
             energy_usage = "450kW",
-            source_inventory_size = 1,
+            source_inventory_size = 4,
             energy_source =
             {
                 type = "electric",
                 usage_priority = "secondary-input",
-                emissions = 0.005
+                emissions = 0.05,
+                smoke =
+                {
+                    {
+                        name = "smoke",
+                        frequency = 10,
+                        position = {0.7, -1.2},
+                        starting_vertical_speed = 0.08,
+                        starting_frame_deviation = 60
+                    }
+                }
             },
             vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
             working_sound =

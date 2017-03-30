@@ -4,12 +4,13 @@
 -- User: jschwien
 -- Date: 30.03.2017
 --
+
 data:extend(
     {
          {
-            type = "hot-kiln",
+            type = "furnace",
             name = "electric-hot-kiln",
-            icon = "__SimpleKiln__/graphics/icons/electric-charcoal-kiln.png",
+            icon = "__SimpleKiln__/graphics/icons/electric-hot-kiln.png",
             flags = {"placeable-neutral", "placeable-player", "player-creation"},
             minable = {mining_time = 1, result = "electric-hot-kiln"},
             max_health = 150,
@@ -35,22 +36,12 @@ data:extend(
             result_inventory_size = 1,
             crafting_speed = 2,
             energy_usage = "450kW",
-            source_inventory_size = 4,
+            source_inventory_size = 1,
             energy_source =
             {
                 type = "electric",
                 usage_priority = "secondary-input",
                 emissions = 0.05,
-                smoke =
-                {
-                    {
-                        name = "smoke",
-                        frequency = 10,
-                        position = {0.7, -1.2},
-                        starting_vertical_speed = 0.08,
-                        starting_frame_deviation = 60
-                    }
-                }
             },
             vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
             working_sound =
@@ -64,7 +55,7 @@ data:extend(
             },
             animation =
             {
-                filename = "__SimpleKiln__/graphics/entity/electric-charcoal-kiln/electric-hot-kiln-base.png",
+                filename = "__SimpleKiln__/graphics/entity/electric-hot-kiln/electric-hot-kiln-base.png",
                 priority = "high",
                 width = 129,
                 height = 100,
@@ -76,7 +67,7 @@ data:extend(
                 {
                     animation =
                     {
-                        filename = "__SimpleKiln__/graphics/entity/electric-charcoal-kiln/electric-hot-kiln-heater.png",
+                        filename = "__SimpleKiln__/graphics/entity/electric-hot-kiln/electric-hot-kiln-heater.png",
                         priority = "high",
                         width = 25,
                         height = 15,
@@ -89,7 +80,7 @@ data:extend(
                 {
                     animation =
                     {
-                        filename = "__SimpleKiln__/graphics/entity/electric-charcoal-kiln/electric-hot-kiln-propeller-1.png",
+                        filename = "__SimpleKiln__/graphics/entity/electric-hot-kiln/electric-hot-kiln-propeller-1.png",
                         priority = "high",
                         width = 19,
                         height = 13,
@@ -101,7 +92,7 @@ data:extend(
                 {
                     animation =
                     {
-                        filename = "__SimpleKiln__/graphics/entity/electric-charcoal-kiln/electric-hot-kiln-propeller-2.png",
+                        filename = "__SimpleKiln__/graphics/entity/electric-hot-kiln/electric-hot-kiln-propeller-2.png",
                         priority = "high",
                         width = 12,
                         height = 9,

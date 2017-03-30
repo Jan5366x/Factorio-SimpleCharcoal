@@ -8,9 +8,5 @@ data:extend(
         {
             type = "recipe-category",
             name = "kiln-burning"
-        },
-        {
-            type = "recipe-category",
-            name = "kiln-cooling"
         }
     })

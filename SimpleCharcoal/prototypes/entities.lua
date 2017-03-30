@@ -8,7 +8,7 @@ data:extend(
     {
          {
             type = "hot-kiln",
-            name = "electric-charcoal-kiln",
+            name = "electric-hot-kiln",
             icon = "__SimpleKiln__/graphics/icons/electric-charcoal-kiln.png",
             flags = {"placeable-neutral", "placeable-player", "player-creation"},
             minable = {mining_time = 1, result = "electric-charcoal-kiln"},
@@ -33,7 +33,7 @@ data:extend(
             allowed_effects = {"consumption", "speed", "productivity", "pollution"},
             crafting_categories = {"kiln-burning"},
             result_inventory_size = 1,
-            crafting_speed = 1,
+            crafting_speed = 2,
             energy_usage = "450kW",
             source_inventory_size = 1,
             energy_source =

@@ -1,4 +1,4 @@
 # Factorio-SimpleKiln
 Factorio Mod - 
 
-Hot kiln: Coal form Wood
+Hot kiln: Coal from Wood

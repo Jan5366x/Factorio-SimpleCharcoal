@@ -10,6 +10,7 @@ data:extend(
             type = "furnace",
             name = "electric-hot-kiln",
             icon = "__SimpleKiln__/graphics/icons/electric-hot-kiln.png",
+            icon_size = 32,
             flags = {"placeable-neutral", "placeable-player", "player-creation"},
             minable = {mining_time = 1, result = "electric-hot-kiln"},
             max_health = 150,

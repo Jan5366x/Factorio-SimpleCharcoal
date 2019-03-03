@@ -1,6 +1,5 @@
 --
 -- Created by IntelliJ IDEA.
--- TODO still not finshed
 -- User: jschwien
 -- Date: 30.03.2017
 --

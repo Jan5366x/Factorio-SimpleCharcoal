@@ -10,7 +10,7 @@ data:extend(
             type = "item",
             name = "electric-hot-kiln",
             icon = "__SimpleKiln__/graphics/icons/electric-hot-kiln.png",
-            flags = {"goes-to-quickbar"},
+            icon_size = 32,
             subgroup = "kiln",
             enabled = true,
             order = "b[electric-hot-kiln]",
